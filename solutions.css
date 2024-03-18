@@ -14,4 +14,30 @@
     width: 500px;
 }
 
-.ex-3-square
+.ex-3-square {
+    transition: 2s
+}
+
+.ex-3-square:hover {
+    border-radius: 50%;
+}
+
+.ex-4-square {
+    transition: 1s;
+}
+
+.ex-4-square:hover {
+    opacity: 0;
+}
+
+.ex-5-square {
+    transition: 1s;
+}
+
+.ex-5-square:hover {
+    transform: scale(2);
+}
+
+.ex-5-square:active {
+    transform: scale(.5);
+}
